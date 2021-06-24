@@ -32,5 +32,11 @@ int main() {
     cout << *it << endl;
   }
 
+  // remove all elements
+  s.erase(s.begin(), s.end());
+
+  // size of the set after removing all elements
+  cout << "Size of the set is " << s.size() << endl;
+
   return 0;
 }
