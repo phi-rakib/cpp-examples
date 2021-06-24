@@ -13,5 +13,8 @@ int main() {
   s.insert(40);
   s.insert(20);
 
+  // get the set size
+  cout << "Size of the set is " << s.size() << endl;
+
   return 0;
 }
