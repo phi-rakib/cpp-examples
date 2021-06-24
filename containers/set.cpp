@@ -21,5 +21,16 @@ int main() {
     cout << *it << endl;
   }
 
+  // remove single element
+  s.erase(10);
+
+  // get the set size
+  cout << "Size of the set is " << s.size() << endl;
+
+  // traverse set
+  for (set<int>::iterator it = s.begin(); it != s.end(); it++) {
+    cout << *it << endl;
+  }
+
   return 0;
 }
