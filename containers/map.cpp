@@ -1,5 +1,6 @@
 #include <iostream>
 #include <map>
+#include <iterator>
 using namespace std;
 
 int main() {
@@ -10,6 +11,11 @@ int main() {
   mp.insert(pair<string, int>("jakir", 22));
   mp.insert(pair<string, int>("abir", 17));
   mp.insert(pair<string, int>("raihan", 45));
-  
+
+  // traverse map
+  for (map<string, int>::iterator it = mp.begin(); it != mp.end(); ++it) {
+    cout << it->first << " " << it->second << endl;
+  }
+
   return 0;
 }
