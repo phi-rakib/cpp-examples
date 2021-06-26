@@ -21,5 +21,10 @@ int main() {
   mp["faruk"] = 17;
   mp["akib"] = 45;
 
+  // traverse map
+  for (map<string, int>::iterator it = mp.begin(); it != mp.end(); ++it) {
+    cout << it->first << " " << it->second << endl;
+  }
+
   return 0;
 }
