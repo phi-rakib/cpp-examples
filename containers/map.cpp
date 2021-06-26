@@ -26,5 +26,15 @@ int main() {
     cout << it->first << " " << it->second << endl;
   }
 
+  // erase single element from map
+  mp.erase("abir");
+
+  cout << "Erased Single item from map by key" << endl;
+
+  // traverse map
+  for (map<string, int>::iterator it = mp.begin(); it != mp.end(); ++it) {
+    cout << it->first << " " << it->second << endl;
+  }
+
   return 0;
 }
