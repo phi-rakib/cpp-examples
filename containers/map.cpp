@@ -17,5 +17,9 @@ int main() {
     cout << it->first << " " << it->second << endl;
   }
 
+  // another way of adding items to the map
+  mp["faruk"] = 17;
+  mp["akib"] = 45;
+
   return 0;
 }
