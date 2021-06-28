@@ -36,5 +36,8 @@ int main() {
     cout << it->first << " " << it->second << endl;
   }
 
+  // remove all the elements of the map
+  mp.clear();
+
   return 0;
 }
