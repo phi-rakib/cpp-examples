@@ -39,5 +39,8 @@ int main() {
   // remove all the elements of the map
   mp.clear();
 
+  // check map is empty or not
+  cout << "Map is " << (mp.empty() ? "Empty" : "Not Empty") << endl;
+
   return 0;
 }
