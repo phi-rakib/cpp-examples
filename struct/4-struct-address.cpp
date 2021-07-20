@@ -19,4 +19,6 @@ int main()
 
   // get the memory address of employee name
   printf("%d\n", &employee.name);
+
+  return 0;
 }
